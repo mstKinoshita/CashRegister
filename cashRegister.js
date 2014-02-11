@@ -1,16 +1,16 @@
-function StaffMember(name,discountPercent){
+function StaffMember(name, discountPercent) {
     this.name = name;
     this.discountPercent = discountPercent;
 }
 
-var sally = new StaffMember("Sally",5);
-var bob = new StaffMember("Bob",10);
-var me = new StaffMember("Cyrus",20);
+var sally = new StaffMember("Sally", 5);
+var bob = new StaffMember("Bob", 10);
+var me = new StaffMember("Cyrus", 20);
 
 var cashRegister = {
-    total:0,
+    total: 0,
     lastTransactionAmount: 0,
-    add: function(itemCost){
+    add: function(itemCost) {
         this.total += (itemCost || 0);
         this.lastTransactionAmount = itemCost;
     },

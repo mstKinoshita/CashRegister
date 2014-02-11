@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #000000;
+}
+
+#geoCheck {
+    font-family: Verdana, sans-serif;
+    background-color: #ff0000;
+    width: 350px;
+    margin: 310px;
+    display: inline-block;
+}
+
+#demo {
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    display: inline-block;
+}
+
+#button {
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
