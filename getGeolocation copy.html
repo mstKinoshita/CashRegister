@@ -2,16 +2,16 @@
 <html>
 <head>
     <title>Get Your Geolocation</title>
+    <link rel="stylesheet" type="text/css" href="geostyle_map.css" />
 </head>
 <body>
 <div id="geoCheck">
     <p id="demo">Click this button and get your geolocation</p>
     <button id="button" onclick="getLocation()">try</button>
+    <div id="mapholder"></div>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 </div>
   
-<div id="mapholder"></div>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
 <script>
 var x=document.getElementById("demo");
 function getLocation()
